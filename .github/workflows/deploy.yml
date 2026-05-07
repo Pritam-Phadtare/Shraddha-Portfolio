@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted   # THIS makes it run on EC2
+    runs-on: self-hosted 
 
     steps:
       - name: Checkout Code
